@@ -1,0 +1,19 @@
+{
+  "name": "lucid-text",
+  "version": "0.0.1",
+  "description": "the world's most bestest text thing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nmai/lucid-text.git"
+  },
+  "author": "Nick Mai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nmai/lucid-text/issues"
+  },
+  "homepage": "https://github.com/nmai/lucid-text#readme"
+}
