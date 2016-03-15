@@ -15,5 +15,24 @@
   "bugs": {
     "url": "https://github.com/nmai/lucid-text/issues"
   },
-  "homepage": "https://github.com/nmai/lucid-text#readme"
+  "homepage": "https://github.com/nmai/lucid-text#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "ot": "0.0.15",
+    "socket.io": "^1.4.5"
+  },
+  "devDependencies": {
+    "jspm": "^0.16.31"
+  },
+  "jspm": {
+    "dependencies": {
+      "ot": "npm:ot@^0.0.15",
+      "socket.io": "npm:socket.io@^1.4.5"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
 }

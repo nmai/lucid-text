@@ -10,5 +10,24 @@
  * - Store entire snapshot string for the current document
  * - "Chunk" changes
  * - Provide a small API for transport interface and client interface
- * -
+ * - Need to wait for server acknowledgment before erasing pending changes
  */
+
+'use strict'
+
+let Lucid = require('./lucid')
+let luc = new Lucid()
+let express = require('express')
+let app = express()
+let http = require('http').Server(app)
+let io = require('socket.io')(http)
+
+app.use('/', express.static(__dirname))
+
+http.listen(80)
+
+io.on('connection', function (socket) {
+  // socket.on('my other event', function (data) {
+  //   console.log(data)
+  // })
+})

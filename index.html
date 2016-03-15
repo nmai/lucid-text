@@ -1,0 +1,12 @@
+<script src="jspm_packages/system.js"></script>
+<script src="lib/socketio.js"></script>
+
+<body>
+  <textarea id="text1" width="500" height="500"></textarea>
+  <script>
+    'use strict'
+    System.import('./client.js').then(function(client) {
+      console.log(client)
+    })
+  </script>
+</body>
